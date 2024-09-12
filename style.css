@@ -1,0 +1,122 @@
+*{
+    max-height: 100vh;
+    margin: 0px;
+}
+
+nav{
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: yellow;
+    padding-left: 25%;
+    /* padding-top: 30px; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+    /* cursor: pointer; */
+    cursor:w-resize;
+}
+
+.navbar-menu{
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transform: scale(1.1);
+}
+
+a:hover{
+    transform: scale(0.9);
+    text-decoration: underline;
+}
+
+.main-body{
+    height: 100vh;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    padding: 120px;
+    background-color: aqua;
+}
+
+.pass-table,.pass-table th,.pass-table td{
+    margin-top: 50px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 35vw;
+    text-align: center;
+}
+
+th{
+    background-color: rgb(163, 158, 158);
+}
+.pass-table td{
+    background-color: white;
+}
+.form{
+    border: none;
+    margin-top: 50px;
+}
+
+th{
+    height: 50px;
+}
+
+button{
+    margin: 5px;
+    padding: 5px;
+    font-size: 14px;
+    color: red;
+    background-color: rgb(230, 203, 203);
+    border: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    transform: scale(0.9);
+}
+
+.sav-btn{
+    width: 70px;
+    height: 40px;
+    color: white;
+    background-color: green;
+    margin-top: 35px;
+}
+
+.del-btn{
+    width: 70px;
+    height: 40px;
+    color: white;
+    background-color: red;
+    margin-top: 35px;
+}
+
+label{
+    cursor: pointer;
+}
+
+input{
+    height: 20px;
+    width:200px;
+    border-radius: 10px;
+    border: 1px solid black;
+    border-block-color: green;
+    text-align: left;
+    text-indent: 5px;
+    padding: 5px;
+    margin: 5px;
+}
